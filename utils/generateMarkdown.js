@@ -1,6 +1,5 @@
 function generateMarkdown(answers) {
-  return `
-# ${answers.projectName}
+  return `# ${answers.projectName}
 
 ## Description
 
@@ -22,6 +21,8 @@ ${answers.installation}
 ## Usage
 
 ${answers.usage}
+
+  ![License Badge](https://img.shields.io/badge/license-MIT-green)
 
 ## License
 
